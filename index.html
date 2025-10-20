@@ -14,8 +14,8 @@
       <div class="buttons">
         <button onclick="clearDisplay()">C</button>
         <button onclick="backspace()">←</button>
-        <button onclick="appendValue('/')">/</button>
-        <button onclick="appendValue('*')">*</button>
+        <button onclick="appendValue('÷')">÷</button>
+        <button onclick="appendValue('×')">×</button>
 
         <button onclick="appendValue('7')">7</button>
         <button onclick="appendValue('8')">8</button>
@@ -47,7 +47,8 @@
     <!-- Calculation History -->
     <div class="history">
       <h3>History</h3>
-      <ul id="history-list"></ul>
+      <button id="clear-history" class="clear-btn">Clear</button>
+      <ul id="history-list" class="history-list"></ul>
     </div>
   </div>
 
